@@ -1,0 +1,79 @@
+<meta charset="UTF-8">
+<meta name="viewport" content="width=device-width, initial-scale=1">
+
+<style>
+
+body {
+	font-family: Arial, Helvetica, sans-serif;
+	margin: 0;
+}
+
+.header {
+  padding: 80px;
+  text-align: center;
+  background-image: url("background.png");
+  color: black;
+}
+
+.header h1 {
+	font-size: 40px;
+}
+
+.navbar {
+	overflow: hidden;
+	background-color: black;
+	position: sticky;
+	position: -webkit-sticky;
+	top: 0;
+}
+
+.navbar a {
+  float: left;
+  display: block;
+  color: white;
+  text-align: center;
+  padding: 14px 20px;
+  text-decoration: none;
+}
+
+.navbar a:hover {
+	background-color: rgb(214, 242, 255);
+	color: black;
+}
+
+
+.explanation {
+	-mis-flex: 100%;
+	flex: 100%;
+	background-color: #f1f1f1;
+	padding: 20px;
+}
+
+
+.columns {
+  display: -ms-flexbox; 
+  display: flex;
+  -ms-flex-wrap: wrap; 
+  flex-wrap: wrap;
+}
+
+.game {
+  -ms-flex: 50%;
+  flex: 50%;
+  background-color: #f1f1f1;
+  padding: 20px;
+}
+
+.sourceCode {   
+  -ms-flex: 50%; 
+  flex: 50%;
+  background-color: white;
+  padding: 20px;
+}
+
+iframe {
+	border:8px;
+	display:block;
+}
+
+</style>
